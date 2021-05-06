@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>HTML Form Inputs 2 | Zinglecode</title>
+  </head>
+  <body>
+    <form action="https://httpbin.org/post" method="POST">
+      <p>
+        <label for="input-fullname">ชื่อเต็มๆ</label>
+      </p>
+      <p>
+        <input id="input-fullname" type="text" name="fullname">
+      </p>
+      <p>
+        <label for="input-email">อีเมล์</label>
+      </p>
+      <p>
+        <input id="input-email" type="email" name="email">
+      </p>
+      <p>
+        <label for="input-inside-heart">ความในใจ</label>
+      </p>
+      <p>
+        <textarea id="input-inside-heart" name="inside-heart" rows="5"></textarea>
+      </p>
+      <p>Color</p>
+      <p>
+        <input id="input-color-red" type="radio" name="color" value="red" checked><label for="input-color-red">Red</label>
+        <input id="input-color-green" type="radio" name="color" value="green"><label for="input-color-green">Green</label>
+        <input id="input-color-blue" type="radio" name="color" value="blue"><label for="input-color-blue">Blue</label>
+      </p>
+      <p>Sports</p>
+      <p>
+        <input id="input-sport-football" type="checkbox" name="sport" value="football" checked><label for="input-sport-football">Football</label>
+        <input id="input-sport-basketball" type="checkbox" name="sport" value="basketball"><label for="input-sport-basketball">Basketball</label>
+        <input id="input-sport-tennis" type="checkbox" name="sport" value="tennis"><label for="input-sport-tennis">Tennis</label>
+      </p>
+      <p>Server</p>
+      <p>
+        <select name="server">
+          <option value="europe">Europe</option>
+          <option value="america">America</option>
+          <option value="africa">Africa</option>
+          <option value="asia" selected>Asia</option>
+        </select>
+      </p>
+      <p>
+        <button type="submit">ส่งข้อมูล</button>
+      </p>
+    </form>
+  </body>
+</html>
